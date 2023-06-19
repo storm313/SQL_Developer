@@ -1,5 +1,5 @@
 create or replace
---To add an exception block type excep and the press Ctrl+Shift+t.
+
 PROCEDURE proc_emp_cursor is
   CURSOR c_emp_cursor IS 
    SELECT empno, ename FROM emp
